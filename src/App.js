@@ -10,8 +10,6 @@ function App() {
       <header className="">
       </header>
       <Homepage />
-      <SignUp/>
-      <Login/>
     </div>
   );
 }
