@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 
 const SignUp = () => {
   const [firstName, setFirstName] = useState('');
@@ -32,7 +33,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="h-screen flex justify-center items-center bg-white">
+    <div className="w-[500px] rounded-md shadow-md m-4 flex justify-center items-center bg-white">
       <form onSubmit={handleSubmit} className="bg-white p-10 rounded-lg shadow-lg">
         <h2 className="text-2xl mb-5">Sign Up</h2>
         <div className="flex mb-5">
@@ -57,7 +58,7 @@ const SignUp = () => {
           <label className="block font-semibold mb-1">Confirm Password</label>
           <input type="password" value={password} onChange={handlePasswordChange} className="w-full border-2 border-gray-300 p-2 rounded-lg" />
         </div>
-        <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Sign Up</button>
+        <Link to='/pages' type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Sign Up</Link>
       </form>
     </div>
   );
