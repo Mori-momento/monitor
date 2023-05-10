@@ -6,6 +6,8 @@ import Contamination from './components/Contamination';
 import Leaks from './components/Leaks';
 import Pipelines from './components/Pipelines';
 import ContactUs from './components/Contactus';
+import SignUp from './components/Signup';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/pipelines" element={<Pipelines/>} />
           <Route path="/leaks" element={<Leaks/>} />
           <Route path="/contactus" element={<ContactUs/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/signup" element={<SignUp/>} />
         </Routes>
       </div>
     </Router>

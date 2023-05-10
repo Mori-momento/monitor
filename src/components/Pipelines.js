@@ -6,11 +6,12 @@ const Pipelines = () => {
 
     const cities = [
         { name: 'Mumbai', image: 'mumbai.jpg' },
-        { name: 'Delhi', image: 'mumbai.jpg' },
+        { name: 'Delhi', image: 'delhi.jpg' },
         { name: 'Bangalore', image: 'mumbai.jpg' },
         { name: 'Chennai', image: 'mumbai.jpg' },
         { name: 'Kolkata', image: 'mumbai.jpg' },
         { name: 'Hyderabad', image: 'mumbai.jpg' },
+        { name: 'Pune', image: 'pune.jpg' },
     ];
 
     const filteredCities = cities.filter(city =>

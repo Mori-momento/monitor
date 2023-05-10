@@ -23,7 +23,8 @@ const Login = () => {
 
   return (
 
-      <form onSubmit={handleSubmit} className="bg-white p-10 rounded-lg shadow-lg w-[400px] rounded-md shadow-md m-4 ">
+   <div className='h-screen w-screen flex items-center justify-center ' >
+       <form onSubmit={handleSubmit} className="bg-white p-10 rounded-lg shadow-lg w-[400px] rounded-md shadow-md m-4 ">
         <h2 className="text-2xl mb-5">Login</h2>
         <div className="mb-5">
           <label className="block font-semibold mb-1">Email</label>
@@ -33,8 +34,10 @@ const Login = () => {
           <label className="block font-semibold mb-1">Password</label>
           <input type="password" value={password} onChange={handlePasswordChange} className="w-full border-2 border-gray-300 p-2 rounded-lg" />
         </div>
-        <Link to='/pages' className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Login</Link>
+        <Link to='/pages' className="bg-blue-500 m-2 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Login</Link>
+      <Link to='/Signup' className="bg-blue-500 m-2 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Sign Up</Link>
       </form>
+   </div>
   );
 };
 

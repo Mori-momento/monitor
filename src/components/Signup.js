@@ -33,8 +33,9 @@ const SignUp = () => {
   };
 
   return (
-    <div className="w-[500px] rounded-md shadow-md m-4 flex justify-center items-center bg-white">
-      <form onSubmit={handleSubmit} className="bg-white p-10 rounded-lg shadow-lg">
+<div className='flex justify-center justify-center h-screen ' >
+<div className=" rounded-md m-4 flex justify-center items-center">
+      <form onSubmit={handleSubmit} className="bg-white h-[500px] p-8 shadow-md p-10 rounded-lg shadow-lg">
         <h2 className="text-2xl mb-5">Sign Up</h2>
         <div className="flex mb-5">
           <div className="w-1/2 mr-2">
@@ -61,6 +62,7 @@ const SignUp = () => {
         <Link to='/pages' type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Sign Up</Link>
       </form>
     </div>
+</div>
   );
 };
 
