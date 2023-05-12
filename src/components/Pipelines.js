@@ -31,7 +31,18 @@ const Pipelines = () => {
     }
 
     return (
-        <div className="h-screen flex flex-col items-center p-8 bg-blue-200 ">
+        <div className=" relative h-screen flex flex-col items-center p-8 bg-blue-200 ">
+            <div className='absolute right-0 w-[280px] bg-white rounded-md h-[90vh] p-4 overflow-y-scroll opacity-[75%] text-left ' >
+                <span className='text-[30px] font-bold ' >Pipeline Map Updates</span>
+            <ul>
+      <li>&#8226; There will be updates and changes made to the pipeline network in Mumbai's Ward G.</li>
+      <li>&#8226; The changes are likely to affect the existing pipeline infrastructure and may require modifications or upgrades.</li>
+      <li>&#8226; The updates could result in improved efficiency and reliability of the pipeline network.</li>
+      <li>&#8226; The changes could potentially impact residents and businesses in the area, particularly those who rely on the pipeline for their water supply.</li>
+      <li>&#8226; It is important for residents and businesses in Ward G to stay informed about the updates and changes to the pipeline network to prepare for any potential disruptions or inconveniences.</li>
+    </ul>
+
+            </div>
             <div className='' >
 
                 <input

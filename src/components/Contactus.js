@@ -18,7 +18,7 @@ const ContactUs = () => {
 
                             <img src='./images/namdeo.jpg' alt='' />
                         </div>
-                        <p className="text-center font-bold mb-2">Namdeo Bhade</p>
+                        <p className="text-center font-bold mb-2">Namdeo Badhe</p>
                         <p className="text-center"></p>
                     </div>
                     <div className="bg-white rounded-lg shadow-lg p-8">

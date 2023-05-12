@@ -45,12 +45,7 @@ This widespread problem of water pollution is jeopardizing our health. Unsafe wa
 
     </p>
   </div>
-  <div className="bg-gray-100 p-4 rounded-lg my-2 ">
-    <h3 className="text-md font-bold text-gray-800 mb-2">Protest against pipeline in Canada</h3>
-    <p className="text-gray-700 ">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus posuere magna eget dignissim vulputate. Sed consequat, libero in tempor posuere, turpis sapien pulvinar orci, ac suscipit risus lacus eget eros. Integer ac enim tellus. Proin tristique ligula sed tellus ullamcorper, eget molestie justo vestibulum. Donec ornare nunc quam, sit amet faucibus massa dignissim vel.
-    </p>
-  </div>
+
 </div>
 
 <div className="bg-white  rounded-lg shadow-lg p-4 col-span-1 row-span-1 overflow-y-scroll">
