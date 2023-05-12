@@ -8,26 +8,26 @@ const ContactUs = () => {
                 <div className="grid grid-cols-3 gap-8 w-full">
                     <div className="bg-white rounded-lg shadow-lg p-8">
                         <div className="h-40 w-40 mx-auto bg-gray-400 rounded-full mb-4 overflow-hidden ">
-                            <img src='./images/legacy.jpg' alt='' />
+                            <img src='./images/raj.jpg' alt='' />
                         </div>
-                        <p className="text-center font-bold mb-2">Name</p>
-                        <p className="text-center">000-000-0000</p>
+                        <p className="text-center font-bold mb-2">Raj Salvi</p>
+                        <p className="text-center">+91 70451 07959</p>
                     </div>
                     <div className="bg-white rounded-lg shadow-lg p-8">
                         <div className="h-40 w-40 mx-auto bg-gray-400 rounded-full mb-4 overflow-hidden ">
 
-                            <img src='./images/legacy.jpg' alt='' />
+                            <img src='./images/namdeo.jpg' alt='' />
                         </div>
-                        <p className="text-center font-bold mb-2">Name</p>
-                        <p className="text-center">000-000-0000</p>
+                        <p className="text-center font-bold mb-2">Namdeo Bhade</p>
+                        <p className="text-center"></p>
                     </div>
                     <div className="bg-white rounded-lg shadow-lg p-8">
                         <div className="h-40 w-40 mx-auto bg-gray-400 rounded-full mb-4 overflow-hidden ">
 
-                            <img src='./images/legacy.jpg' alt='' />
+                            <img src='./images/sachet.jpg' alt='' />
                         </div>
-                        <p className="text-center font-bold mb-2">Name</p>
-                        <p className="text-center">000-000-0000</p>
+                        <p className="text-center font-bold mb-2">Sachet Engineer</p>
+                        <p className="text-center">+91 81699 01358</p>
                     </div>
                 </div>
             </div>

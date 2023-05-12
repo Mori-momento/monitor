@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Pipelines = () => {
     const [searchTerm, setSearchTerm] = useState('');
-    const [selectedCity, setSelectedCity] = useState('');
+    const [selectedCity, setSelectedCity] = useState('placeholder');
 
     const cities = [
         { name: 'Mumbai', image: 'mumbai.jpg' },
